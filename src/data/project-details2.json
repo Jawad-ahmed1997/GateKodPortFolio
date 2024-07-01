@@ -1,0 +1,365 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "small": "art & illustration",
+      "big": "RS CAB."
+    },
+    "clientURLLink": "#",
+    "projectHeaderImage": "/img/portfolio/project1/bg.jpeg",
+    "videoLink": "https://vimeo.com/127203262",
+    "clientURLName": "RSCAB",
+    "date": "6 August 2023",
+    "categories": [
+      {
+        "id": 1,
+        "name": "Web Design",
+        "link": "#"
+      },
+      {
+        "id": 2,
+        "name": "NEXT.JS",
+        "link": "#"
+      }
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "Minimal",
+        "link": "#"
+      },
+      {
+        "id": 2,
+        "name": "Modern",
+        "link": "#"
+      },
+      {
+        "id": 3,
+        "name": "Design",
+        "link": "#"
+      }
+    ],
+    "intro": {
+      "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part.",
+      "spmList": [
+        {
+          "id": 1,
+          "name": "Aenean sollicitudin"
+        },
+        {
+          "id": 2,
+          "name": "lorem quis bibendum auctor"
+        },
+        {
+          "id": 31,
+          "name": "nisi elit conseq uat ipsum"
+        },
+        {
+          "id": 4,
+          "name": "nec sagittis sem nibh id elit"
+        }
+      ]
+    },
+    "gallery": [
+      "/img/portfolio/project1/1.png",
+      "/img/portfolio/project1/2.jpg",
+      "/img/portfolio/project1/3.png",
+      "/img/portfolio/project1/4.png",
+      "/img/portfolio/project1/7.png"
+    ],
+    "description": {
+      "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part."
+    }
+  },
+  {
+    "id": 2,
+    "title": {
+      "small": "art & illustration",
+      "big": "PICCKR"
+    },
+    "clientURLLink": "#",
+    "projectHeaderImage": "/img/portfolio/project2/bg.jpeg",
+    "videoLink": "https://vimeo.com/127203262",
+    "clientURLName": "picckr.com",
+    "date": "6 August 2023",
+    "categories": [
+      {
+        "id": 1,
+        "name": "Web Design",
+        "link": "#"
+      },
+      {
+        "id": 2,
+        "name": "Next.js",
+        "link": "#"
+      },
+      {
+        "id": 3,
+        "name": "APP",
+        "link": "#"
+      }
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "Minimal",
+        "link": "#"
+      },
+      {
+        "id": 2,
+        "name": "Modern",
+        "link": "#"
+      },
+      {
+        "id": 3,
+        "name": "Design",
+        "link": "#"
+      }
+    ],
+    "intro": {
+      "content": "PicckR is an All-in-One game-changing P2P Delivery App that aims to address the limitations and challenges faced by individuals and businesses in accessing affordable, flexible, and personalized delivery services in the current logistics landscape.",
+      "spmList": [
+        {
+          "id": 1,
+          "name": "Aenean sollicitudin"
+        },
+        {
+          "id": 2,
+          "name": "lorem quis bibendum auctor"
+        },
+        {
+          "id": 31,
+          "name": "nisi elit conseq uat ipsum"
+        },
+        {
+          "id": 4,
+          "name": "nec sagittis sem nibh id elit"
+        }
+      ]
+    },
+    "gallery": [
+      "/img/portfolio/project2/1.jpeg",
+      "/img/portfolio/project2/2.jpeg",
+    
+      "/img/portfolio/project2/7.jpeg"
+    ],
+    "description": {
+      "content": "PicckR is an All-in-One game-changing P2P Delivery App that aims to address the limitations and challenges faced by individuals and businesses in accessing affordable, flexible, and personalized delivery services in the current logistics landscape."
+    }
+  },
+  {
+    "id": 3,
+    "title": {
+      "small": "art & illustration",
+      "big": "KONKRAL."
+    },
+    "clientURLLink": "#",
+    "projectHeaderImage": "/img/portfolio/project3/bg.jpg",
+    "videoLink": "https://vimeo.com/127203262",
+    "clientURLName": "Envato.com",
+    "date": "6 August 2023",
+    "categories": [
+      {
+        "id": 1,
+        "name": "Web Design",
+        "link": "#"
+      },
+      {
+        "id": 2,
+        "name": "WordPress",
+        "link": "#"
+      }
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "Minimal",
+        "link": "#"
+      },
+      {
+        "id": 2,
+        "name": "Modern",
+        "link": "#"
+      },
+      {
+        "id": 3,
+        "name": "Design",
+        "link": "#"
+      }
+    ],
+    "intro": {
+      "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part.",
+      "spmList": [
+        {
+          "id": 1,
+          "name": "Aenean sollicitudin"
+        },
+        {
+          "id": 2,
+          "name": "lorem quis bibendum auctor"
+        },
+        {
+          "id": 31,
+          "name": "nisi elit conseq uat ipsum"
+        },
+        {
+          "id": 4,
+          "name": "nec sagittis sem nibh id elit"
+        }
+      ]
+    },
+    "gallery": [
+      "/img/portfolio/project3/1.jpg",
+      "/img/portfolio/project3/2.jpg",
+      "/img/portfolio/project3/3.jpg",
+      "/img/portfolio/project3/4.jpg",
+      "/img/portfolio/project3/7.jpg"
+    ],
+    "description": {
+      "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part."
+    }
+  },
+  {
+    "id": 4,
+    "title": {
+      "small": "art & illustration",
+      "big": "Netsome."
+    },
+    "clientURLLink": "#",
+    "projectHeaderImage": "/img/portfolio/project4/bg.jpeg",
+    "videoLink": "https://vimeo.com/127203262",
+    "clientURLName": "netsome",
+    "date": "6 August 2023",
+    "categories": [
+      {
+        "id": 1,
+        "name": "Web Design",
+        "link": "#"
+      },
+      {
+        "id": 2,
+        "name": "Next.JS",
+        "link": "#"
+      }
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "Minimal",
+        "link": "#"
+      },
+      {
+        "id": 2,
+        "name": "CRM",
+        "link": "#"
+      },
+      {
+        "id": 3,
+        "name": "Design",
+        "link": "#"
+      }
+    ],
+    "intro": {
+      "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part.",
+      "spmList": [
+        {
+          "id": 1,
+          "name": "Aenean sollicitudin"
+        },
+        {
+          "id": 2,
+          "name": "lorem quis bibendum auctor"
+        },
+        {
+          "id": 31,
+          "name": "nisi elit conseq uat ipsum"
+        },
+        {
+          "id": 4,
+          "name": "nec sagittis sem nibh id elit"
+        }
+      ]
+    },
+    "gallery": [
+      "/img/portfolio/project4/3.jpeg",
+    
+      "/img/portfolio/project4/4.jpeg",
+  
+      "/img/portfolio/project4/7.jpeg"
+    ],
+    "description": {
+      "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part."
+    }
+  },
+  {
+    "id": 5,
+    "title": {
+      "small": "art & illustration",
+      "big": "lifeXs."
+    },
+    "clientURLLink": "#",
+    "projectHeaderImage": "/img/portfolio/project5/bg.jpeg",
+    "videoLink": "https://vimeo.com/127203262",
+    "clientURLName": "netsome",
+    "date": "6 August 2023",
+    "categories": [
+      {
+        "id": 1,
+        "name": "Web Design",
+        "link": "#"
+      },
+      {
+        "id": 2,
+        "name": "Next.JS",
+        "link": "#"
+      }
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "Minimal",
+        "link": "#"
+      },
+      {
+        "id": 2,
+        "name": "CRM",
+        "link": "#"
+      },
+      {
+        "id": 3,
+        "name": "Design",
+        "link": "#"
+      }
+    ],
+    "intro": {
+      "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part.",
+      "spmList": [
+        {
+          "id": 1,
+          "name": "Aenean sollicitudin"
+        },
+        {
+          "id": 2,
+          "name": "lorem quis bibendum auctor"
+        },
+        {
+          "id": 31,
+          "name": "nisi elit conseq uat ipsum"
+        },
+        {
+          "id": 4,
+          "name": "nec sagittis sem nibh id elit"
+        }
+      ]
+    },
+    "gallery": [
+      "/img/portfolio/project5/1.jpeg",
+      "/img/portfolio/project5/2.jpeg",
+      
+      "/img/portfolio/project5/7.jpeg"
+    ],
+    "description": {
+      "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part."
+    }
+  }
+]
