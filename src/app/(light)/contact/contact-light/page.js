@@ -14,7 +14,7 @@ export default function ContactPage() {
   return (
     <>
       <Loading />
-      <Navbar setTheme={setTheme} theme={theme}  />
+      <Navbar setTheme={setTheme} theme="dark"  />
       <ContactHeader />
       <div className="main-content">
         <ContactForm theme="light" />
