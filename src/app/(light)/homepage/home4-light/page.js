@@ -14,9 +14,6 @@ import Blogs from '@/components/Blogs/Blogs4';
 import SContactForm from '@/components/Contact/ContactFormS';
 import Footer from '@/components/Common/Footer';
 
-export const metadata = {
-  title: 'GateKode - Business One Page Light'
-}
 
 export default function Home4() {
   const [theme,setTheme]=useState("light")

@@ -14,9 +14,6 @@ import { usePathname, useRouter  } from 'next/navigation'
 //= Static Data
 import ProjectDate from "@/data/project-details2.json";
 
-export const metadata = {
-  title: 'Vie - Project Details Light'
-}
 
 export default function ProjectDetailsPage({ params }) {
   const [project,setProject]=useState(null)

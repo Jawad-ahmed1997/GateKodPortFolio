@@ -7,9 +7,7 @@ import ContactHeader from '@/components/Contact/ContactHeader';
 import ContactForm from '@/components/Contact/ContactForm';
 import Footer from '@/components/Common/Footer';
 
-export const metadata = {
-  title: 'GateKod - Contact'
-}
+
 
 export default function ContactPage() {
   const [theme,setTheme]=useState("light")

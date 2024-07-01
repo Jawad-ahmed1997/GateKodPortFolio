@@ -14,10 +14,6 @@ import Clients from '@/components/Clients/Clients1';
 import CallToAction from '@/components/Others/CallToAction';
 import Footer from '@/components/Common/Footer';
 
-export const metadata = {
-  title: 'GateKod - About Light'
-}
-
 function AboutLight() {
   const [theme,setTheme]=useState("light")
   return (
