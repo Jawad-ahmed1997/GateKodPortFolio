@@ -13,7 +13,6 @@ function Clients2({ theme }) {
           <div className="col-lg-7">
             <div className="row">
               {ClientsData.slice(0, 4).map((item) =>{
-                console.log("item",item)
                 return (
                   <div key={item.id} className="col-lg-3 brands">
                   <div className="item no-bord wow fadeIn" data-wow-delay=".3s">

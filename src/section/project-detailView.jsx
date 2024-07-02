@@ -11,21 +11,7 @@ import ProjectDate from "@/data/project-details2.json";
 import { useParams } from 'next/navigation'
 
 
-function ProjectDetailView() {
-    const {id} = useParams();
-    // const {project} = props
-    console.log("props",id)
-    const [project,setProject]=useState(null)
-    const [loading,setLoading]=useState(true)
-    useEffect(() => {
-      if (id) {
-        const projectData = ProjectDate.find((project) => project.id === parseInt(id));
-        console.log("project data in main",projectData)
-        setProject(projectData);
-        setLoading(false);
-      }
-    }, [id]);
-  
+function ProjectDetailView({project}) {
   return (
     <>
     <Navbar  themeMode="light"/>

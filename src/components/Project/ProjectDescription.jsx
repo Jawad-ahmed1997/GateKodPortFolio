@@ -2,7 +2,6 @@
 import React from 'react';
 
 function ProjectDescription({ project }) {
-  console.log("project in project description",project)
 
   return (
     <section className="intro-section section-padding">

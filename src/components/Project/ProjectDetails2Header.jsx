@@ -4,7 +4,6 @@ import ProjectDate from "@/data/project-details2.json";
 
 
 function ProjectDetails2Header({project}) {
-  console.log("id in ProjectDetails2Header ",project)
 
   return (
     <section className="page-header proj-det bg-img parallaxie valign"
