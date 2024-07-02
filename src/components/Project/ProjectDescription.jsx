@@ -1,19 +1,9 @@
 'use client'
-import React, { useEffect, useState } from 'react';
-import ProjectDate from "@/data/project-details2.json";
+import React from 'react';
 
-function ProjectDescription({ id }) {
-  console.log("id in ProjectDescription ",id)
-  const [project,setProject]=useState(null)
-  const [loading,setLoading]=useState(true)
-  useEffect(() => {
-    if (id) {
+function ProjectDescription({ project }) {
+  console.log("project in project description",project)
 
-      const projectData = ProjectDate.find((project) => project.id === parseInt(id));
-      setProject(projectData?.description);
-      setLoading(false);
-    }
-  }, [id]);
   return (
     <section className="intro-section section-padding">
       <div className="container">
@@ -25,7 +15,7 @@ function ProjectDescription({ id }) {
           </div>
           <div className="col-lg-8 offset-lg-1 col-md-8">
             <div className="text js-scroll__content">
-              <p className="extra-text">{project?.description}</p>
+              <p className="extra-text">{project?.content}</p>
             </div>
           </div>
         </div>

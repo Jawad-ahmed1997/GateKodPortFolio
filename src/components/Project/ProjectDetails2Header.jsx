@@ -3,17 +3,9 @@ import React, { useEffect, useState } from 'react';
 import ProjectDate from "@/data/project-details2.json";
 
 
-function ProjectDetails2Header({id}) {
-  console.log("id in ProjectDetails2Header ",id)
-  const [project,setProject]=useState(null)
-  const [loading,setLoading]=useState(true)
-  useEffect(() => {
-    if (id) {
-      const projectData = ProjectDate.find((project) => project.id === parseInt(id));
-      setProject(projectData);
-      setLoading(false);
-    }
-  }, [id]);
+function ProjectDetails2Header({project}) {
+  console.log("id in ProjectDetails2Header ",project)
+
   return (
     <section className="page-header proj-det bg-img parallaxie valign"
       style={{ backgroundImage: `url(${project?.projectHeaderImage})`}} data-overlay-dark="4">

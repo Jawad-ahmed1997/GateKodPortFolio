@@ -2,17 +2,8 @@
 import React, { useEffect, useState } from 'react';
 import ProjectDate from "@/data/project-details2.json";
 
-function ProjectIntroduction({id}) {
-  console.log("id in ProjectIntroduction ",id)
-  const [project,setProject]=useState(null)
-  const [loading,setLoading]=useState(true)
-  useEffect(() => {
-    if (id) {
-      const projectData = ProjectDate.find((project) => project.id === parseInt(id));
-      setProject(projectData?.intro);
-      setLoading(false);
-    }
-  }, [id]);
+function ProjectIntroduction({project}) {
+
   return (
     <section className="intro-section section-padding">
       <div className="container">

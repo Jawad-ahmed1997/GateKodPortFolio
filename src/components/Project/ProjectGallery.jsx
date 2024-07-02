@@ -2,17 +2,8 @@
 import React, { useEffect, useState } from 'react';
 import ProjectDate from "@/data/project-details2.json";
 
-function ProjectGallery({ id }) {
-  console.log("id in ProjectGallery ",id)
-  const [project,setProject]=useState(null)
-  const [loading,setLoading]=useState(true)
-  useEffect(() => {
-    if (id) {
-      const projectData = ProjectDate.find((project) => project.id === parseInt(id));
-      setProject(projectData?.gallery);
-      setLoading(false);
-    }
-  }, [id]);
+function ProjectGallery({ project }) {
+  
   return (
     <section className="projdtal">
       <div className="popup-img">
