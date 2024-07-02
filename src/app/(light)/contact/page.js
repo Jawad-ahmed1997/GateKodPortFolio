@@ -14,7 +14,7 @@ export default function ContactPage() {
   return (
     <>
       <Loading />
-      <Navbar  themeMode="dark"  />
+      <Navbar  themeMode="dark"/>
       <ContactHeader />
       <div className="main-content">
         <ContactForm theme="light" />

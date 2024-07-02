@@ -1,33 +1,38 @@
 'use client';
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 //= Scripts
-import initFullNavbarMenu from "@/common/initFullNavbarMenu";
+import initFullNavbarMenu, { appData } from "@/common/initFullNavbarMenu";
 
 function NavbarFullMenu({ theme }) {
+  const [isOpen, setIsOpen] = useState(false);
   useEffect(() => {
-    initFullNavbarMenu();
+    initFullNavbarMenu(setIsOpen);
   }, []);
 
   return (
     <>
       <div id="navi" className={`topnav ${theme ? (theme === 'light' ? 'light' : '') : ''}`}>
         <div className="container-fluid">
-          <div style={{width:150,marginBottom:-100}}>
-            <a href="#0" >
-              {
-                theme === 'light' ?
-                  <img src="/img/logo-light.png" width={200} alt="logo" />
-                  :
-                  <img src="/img/logo-light.png" width={200} alt="logo" />
-              }
+          <div style={{ width: 150, marginBottom: -100 }}>
+            <a href="#0">
+              <img
+                src={isOpen ? appData.darkLogo : appData.lightLogo}
+                width={200}
+                alt="logo"
+              />
             </a>
           </div>
-          <div className="menu-icon">
-            <span className="icon">
+          <div className="menu-icon" style={{ color: isOpen ? "#000" : "" }}>
+            <span
+              className="icon"
+              style={{
+                backgroundColor: isOpen ? "#000" : "",
+              }}
+            >
               <i></i>
               <i></i>
             </span>
-            <span className="text" data-splitting>
+            <span className="text">
               <span className="menu-text">Menu</span>
             </span>
           </div>
@@ -43,21 +48,21 @@ function NavbarFullMenu({ theme }) {
                   <li>
 
                     <div className="o-hidden">
-                      <a className="link" href="/homepage/home4-light">
+                      <a className="link" href="/home">
                         <span className="nm">02.</span>Home
                       </a>
                     </div>
                   </li>
                   <li>
                     <div className="o-hidden">
-                      <a className="link" href="/about/about-light">
+                      <a className="link" href="/about">
                         <span className="nm">02.</span>About Us
                       </a>
                     </div>
                   </li>
                   <li>
-                  <div className="o-hidden">
-                      <a className="link" href="/showcase/showcase-light">
+                    <div className="o-hidden">
+                      <a className="link" href="/showcase">
                         <span className="nm">02.</span>Works
                       </a>
                     </div>
@@ -66,7 +71,7 @@ function NavbarFullMenu({ theme }) {
 
                   <li>
                     <div className="o-hidden">
-                      <a className="link" href="/contact/contact-light">
+                      <a className="link" href="/contact">
                         <span className="nm">05.</span>Contact
                       </a>
                     </div>

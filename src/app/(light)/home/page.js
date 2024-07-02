@@ -19,7 +19,7 @@ export default function Home4() {
   return (
     <>
       <Loading />
-      <Navbar  themeMode="light" page="entry" />
+      <Navbar  themeMode="light"  />
       <SliderHeader />
       <div class="main-content">
         <AboutUs />

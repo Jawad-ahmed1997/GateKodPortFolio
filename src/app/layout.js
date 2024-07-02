@@ -10,10 +10,10 @@ export const metadata = {
   title: 'GateKod',
   description: 'GateKod - Multi-Purpose React.js Next.js Template',
   keywords: ['HTML5', 'Template', 'React','next','ui','ux', 'Multi-Purpose', 'themeforest'],
-  // icons: {
-  //   icon: "/assets/imgs/logShort.jpeg",
-  //   shortcut: "/assets/imgs/logShort.jpeg"
-  // },
+  icons: {
+    icon: "/assets/imgs/logShort.jpeg",
+    shortcut: "/assets/imgs/logShort.jpeg"
+  },
 }
 
 export default function RootLayout({ children }) {

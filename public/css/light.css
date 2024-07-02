@@ -2029,7 +2029,7 @@ body {
 }
 
 .topnav .menu-icon .text:after {
-  content: "close";
+  /* content: "close"; */
   position: absolute;
   top: 0;
   left: 0;

@@ -13,19 +13,19 @@ import CircleBg from "@/components/Demos/CircleBg";
 import Header from "@/components/Demos/Header";
 import MainContent from "@/components/Demos/MainContent";
 
-// export const metadata = {
-//   title: 'GateKod',
-//   icons: {
-//     icon: "/logoShort.ico",
-//     shortcut: "/logoShort.ico",
-//     other: generateStylesheetObject([
-//       'https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap',
-//       'https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap',
-//       'https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap',
-//       '/css/dark.css',
-//     ])
-//   }
-// }
+export const metadata = {
+  title: 'GateKod',
+  icons: {
+    icon: "/logoShort.ico",
+    shortcut: "/logoShort.ico",
+    other: generateStylesheetObject([
+      'https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap',
+      'https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap',
+      'https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap',
+      '/css/dark.css',
+    ])
+  }
+}
 
 export default function LandingPreview() {
   const router = useRouter();

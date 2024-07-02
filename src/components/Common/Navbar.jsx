@@ -6,7 +6,8 @@ import { handleDropdown, handleMobileDropdown } from "@/common/navbar";
 //= Static Data
 import appData from "@/data/app.json";
 
-const Navbar = ({ lr,themeMode,page }) => {
+const Navbar = ({ lr,themeMode }) => {
+
   const [theme,setTheme]=useState(themeMode)
   const navbar = useRef();
 
@@ -15,8 +16,12 @@ const Navbar = ({ lr,themeMode,page }) => {
       navbar.current.classList.add("nav-scroll");
       setTheme("dark")
     } else {
-      navbar?.current?.classList?.remove("nav-scroll");
-      setTheme("light")
+      if(themeMode==="dark"){
+        navbar?.current?.classList?.remove("nav-scroll");
+        setTheme("dark")
+      }else{
+        setTheme("light")
+      }
     }
   }
 
@@ -25,13 +30,17 @@ const Navbar = ({ lr,themeMode,page }) => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   });
+  useEffect(() => {
+  setTheme(themeMode)
+  }, [])
+  
 
   return (
     <nav ref={navbar} className={`navbar navbar-expand-lg change ${theme  === "light" ? "" : "light"}`}>
       <div className="container">
         <Link className="logo" href="/">
-          {page && theme ? (
-            page === "entry" && theme==="light" ? (
+          { theme ? (
+             theme==="light" ? (
               <img ref={lr} src={appData?.lightLogo} alt="logo" />
             ) : (
               <img ref={lr} src={appData.darkLogo} alt="logo" />
