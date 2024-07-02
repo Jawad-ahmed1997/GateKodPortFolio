@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Parallax, Navigation, Mousewheel } from 'swiper';
 //= Scripts
-import removeSlashFromBagination from "@/common/removeSlashpagination";
+import removeSlashFromPagination from "@/common/removeSlashpagination";
 //= Static Data
 import showcasse1Data from "@/data/showcase1.json";
 
@@ -33,7 +33,7 @@ const swiperOptions = {
 
 function ShowcaseFullscreen() {
   useEffect(() => {
-    removeSlashFromBagination();
+    removeSlashFromPagination();
   }, []);
 
   return (

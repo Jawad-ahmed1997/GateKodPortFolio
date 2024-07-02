@@ -41,32 +41,32 @@ function NavbarFullMenu({ theme }) {
               <div className="menu-links">
                 <ul className="main-menu">
                   <li>
-               
+
                     <div className="o-hidden">
-                      <a className="link" href="/home">
+                      <a className="link" href="/homepage/home4-light">
                         <span className="nm">02.</span>Home
                       </a>
                     </div>
                   </li>
                   <li>
                     <div className="o-hidden">
-                      <a className="link" href="/about">
+                      <a className="link" href="/about/about-light">
                         <span className="nm">02.</span>About Us
                       </a>
                     </div>
                   </li>
                   <li>
                   <div className="o-hidden">
-                      <a className="link" href="/showcase">
+                      <a className="link" href="/showcase/showcase-light">
                         <span className="nm">02.</span>Works
                       </a>
                     </div>
-                  
+
                   </li>
-            
+
                   <li>
                     <div className="o-hidden">
-                      <a className="link" href="/contact">
+                      <a className="link" href="/contact/contact-light">
                         <span className="nm">05.</span>Contact
                       </a>
                     </div>
@@ -76,11 +76,11 @@ function NavbarFullMenu({ theme }) {
             </div>
             <div className="col-lg-3 col-md-4">
               <div className="cont-info">
-              
+
                 <div className="item">
                   <h6>Email :</h6>
                   <p>
-                    <a href="#0">hello@gatekod@gmail.com</a>
+                    <a href="#0">hello@gatkod@gmail.com</a>
                   </p>
                 </div>
               </div>

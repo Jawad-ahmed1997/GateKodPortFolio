@@ -7,12 +7,7 @@
             "memory": 1024,
             "maxDuration": 60
           }
-        },
-        "rewrites": [
-          {
-            "source": "/project-details/:id",
-            "destination": "/project-details/[id]"
-          }
-        ]
+        }
+        
       }
       
