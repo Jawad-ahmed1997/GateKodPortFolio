@@ -1,4 +1,4 @@
-
+'use client'
 import React from 'react';
 //= Page components
 import Loading from '@/components/Common/Loader';
@@ -8,13 +8,17 @@ import ProjectIntroduction from '@/components/Project/ProjectIntroduction';
 import ProjectGallery from '@/components/Project/ProjectGallery';
 import ProjectDescription from '@/components/Project/ProjectDescription';
 import Footer from '@/components/Common/Footer';
+import { useRouter } from 'next/navigation';
 //= Static Data
 
 
 
-export default function ProjectDetailsPage({ params }) {
+export default function ProjectDetailsPage() {
 
-  const {id} = params;
+  const router = useRouter();
+  const { id } = router.query; 
+
+
 
 console.log("id in main projectDetail ",id)
 if (!id) {
