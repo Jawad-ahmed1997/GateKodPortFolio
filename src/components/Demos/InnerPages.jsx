@@ -183,7 +183,7 @@ function InnerPages() {
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot"></span>
-                <Link target="_blank" href="/about/about-light">
+                <Link target="_blank" href="/about">
                   <div className="img">
                     <img src="/demo-img/about1.png" alt="image" />
                   </div>
@@ -214,7 +214,7 @@ function InnerPages() {
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot"></span>
-                <Link target="_blank" href="/contact/contact-light">
+                <Link target="_blank" href="/contact">
                   <div className="img">
                     <img src="/demo-img/contact-light.png" alt="image" />
                   </div>

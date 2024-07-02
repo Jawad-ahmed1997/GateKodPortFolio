@@ -37,7 +37,7 @@ function Showcases() {
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot"></span>
-                <Link target="_blank" href="/showcase/showcase-light">
+                <Link target="_blank" href="/showcase">
                   <div className="img">
                     <img src="/demo-img/s01.png" alt="image" />
                   </div>

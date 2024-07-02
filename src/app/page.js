@@ -32,7 +32,7 @@ export default function LandingPreview() {
 
   useEffect(() => {
    
-      router.push('/homepage/home4-light');
+      router.push('/home');
  
 
     

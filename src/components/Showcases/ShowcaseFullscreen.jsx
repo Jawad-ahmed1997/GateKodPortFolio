@@ -49,7 +49,7 @@ function ShowcaseFullscreen() {
                       <div className="col-lg-12">
                         <div className="caption">
                           <h1>
-                            <Link href={`/project-details2/${slide?.id}`}>
+                            <Link href={`/project-details/${slide?.id}`}>
                               <div className="stroke" data-swiper-parallax="-2000">
                                 {slide.title.first}
                               </div>
@@ -60,7 +60,7 @@ function ShowcaseFullscreen() {
                             <div className="bord"></div>
                           </h1>
                           <div className="discover">
-                            <Link href={`/project-details2/${slide?.id}`}>
+                            <Link href={`/project-details/${slide?.id}`}>
                               <span>
                                 Explore <br /> More
                               </span>

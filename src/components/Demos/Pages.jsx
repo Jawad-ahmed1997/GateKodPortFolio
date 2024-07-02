@@ -38,7 +38,7 @@ function Pages() {
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot"></span>
-                <Link target="_blank" href="/homepage/home1-light">
+                <Link target="_blank" href="/home">
                   <div className="img">
                     <img src="/demo-img/01.png" alt="image" />
                   </div>
@@ -307,7 +307,7 @@ function Pages() {
                 <span className="dot"></span>
                 <span className="dot"></span>
                 <span className="dot"></span>
-                <Link target="_blank" href="/homepage/home4-light">
+                <Link target="_blank" href="/home">
                   <div className="img">
                     <img src="/demo-img/04.png" alt="image" />
                   </div>

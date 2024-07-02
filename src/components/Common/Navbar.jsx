@@ -6,8 +6,8 @@ import { handleDropdown, handleMobileDropdown } from "@/common/navbar";
 //= Static Data
 import appData from "@/data/app.json";
 
-const Navbar = ({ lr,setTheme,theme,page }) => {
-
+const Navbar = ({ lr,themeMode,page }) => {
+  const [theme,setTheme]=useState(themeMode)
   const navbar = useRef();
 
   function handleScroll() {
@@ -60,19 +60,19 @@ const Navbar = ({ lr,setTheme,theme,page }) => {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item ">
               <a
-                className="nav-link"  href={'/homepage/home4-light/'}
+                className="nav-link"  href={'/home/'}
               >
                 Home
               </a>
              
             </li>
             <li className="nav-item">
-              <a className="nav-link" href={`/about/about-light`}>
+              <a className="nav-link" href={`/about`}>
                 About
               </a>
             </li>
             <li className="nav-item ">
-            <a className="nav-link" href={`/showcase/showcase-light`}>
+            <a className="nav-link" href={`/showcase`}>
             Works
               </a>
              
@@ -81,7 +81,7 @@ const Navbar = ({ lr,setTheme,theme,page }) => {
             </li>
         
             <li className="nav-item">
-              <a href={`/contact/contact-light`} className="nav-link">
+              <a href={`/contact`} className="nav-link">
                 Contact
               </a>
             </li>

@@ -1,6 +1,17 @@
-import React from 'react';
+'use client'
+import React, { useEffect, useState } from 'react';
+import ProjectDate from "@/data/project-details2.json";
 
-function ProjectDescription({ projectDescriptionData }) {
+function ProjectDescription({ id }) {
+  const [project,setProject]=useState(null)
+  const [loading,setLoading]=useState(true)
+  useEffect(() => {
+    if (id) {
+      const projectData = ProjectDate.find((project) => project.id === parseInt(id));
+      setProject(projectData?.description);
+      setLoading(false);
+    }
+  }, [id]);
   return (
     <section className="intro-section section-padding">
       <div className="container">
@@ -12,7 +23,7 @@ function ProjectDescription({ projectDescriptionData }) {
           </div>
           <div className="col-lg-8 offset-lg-1 col-md-8">
             <div className="text js-scroll__content">
-              <p className="extra-text">{projectDescriptionData.content}</p>
+              <p className="extra-text">{project?.description}</p>
             </div>
           </div>
         </div>

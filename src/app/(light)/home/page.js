@@ -1,5 +1,5 @@
-'use client'
-import React, { useState } from 'react';
+
+import React from 'react';
 //= Page components
 import Loading from '@/components/Common/Loader';
 import Navbar from '@/components/Common/Navbar';
@@ -16,11 +16,10 @@ import Footer from '@/components/Common/Footer';
 
 
 export default function Home4() {
-  const [theme,setTheme]=useState("light")
   return (
     <>
       <Loading />
-      <Navbar setTheme={setTheme} theme={theme} page="entry" />
+      <Navbar  themeMode="light" page="entry" />
       <SliderHeader />
       <div class="main-content">
         <AboutUs />
