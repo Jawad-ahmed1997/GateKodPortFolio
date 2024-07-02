@@ -4,6 +4,7 @@ import ProjectDate from "@/data/project-details2.json";
 
 
 function ProjectDetails2Header({id}) {
+  console.log("id in ProjectDetails2Header ",id)
   const [project,setProject]=useState(null)
   const [loading,setLoading]=useState(true)
   useEffect(() => {

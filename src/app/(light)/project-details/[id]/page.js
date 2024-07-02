@@ -16,7 +16,7 @@ export default function ProjectDetailsPage({ params }) {
 
   const {id} = params;
 
-
+console.log("id in main projectDetail ",id)
  
 
  

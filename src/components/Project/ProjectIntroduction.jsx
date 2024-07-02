@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import ProjectDate from "@/data/project-details2.json";
 
 function ProjectIntroduction({id}) {
+  console.log("id in ProjectIntroduction ",id)
   const [project,setProject]=useState(null)
   const [loading,setLoading]=useState(true)
   useEffect(() => {
