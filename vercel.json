@@ -1,14 +1,18 @@
-{
-    "functions": {
-    "src/pages/**/*": {
-    "memory": 1020,
-    "maxDuration": 60
-    },
-    "rewrites": [
-        {
-          "source": "/project-details/:id",
-          "destination": "/project-details/[id]"
-        }
-      ]
-    }
-    }
+
+
+    {
+        "version": 2,
+        "functions": {
+          "src/pages/**/*": {
+            "memory": 1024,
+            "maxDuration": 60
+          }
+        },
+        "rewrites": [
+          {
+            "source": "/project-details/:id",
+            "destination": "/project-details/[id]"
+          }
+        ]
+      }
+      
