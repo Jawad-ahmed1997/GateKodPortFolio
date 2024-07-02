@@ -2,7 +2,7 @@
     "functions": {
     "src/pages/**/*": {
     "memory": 1020,
-    "maxDuration": 60
+    "maxDuration": 160
     }
     }
     }

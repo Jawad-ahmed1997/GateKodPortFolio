@@ -8,6 +8,7 @@ function ProjectDescription({ id }) {
   const [loading,setLoading]=useState(true)
   useEffect(() => {
     if (id) {
+
       const projectData = ProjectDate.find((project) => project.id === parseInt(id));
       setProject(projectData?.description);
       setLoading(false);
