@@ -31,16 +31,13 @@ export default function LandingPreview() {
   const router = useRouter();
 
   useEffect(() => {
-   
       router.push('/home');
- 
-
-    
   }, [router]);
   return (
     <>
       <LoadingScreen />
       <Cursor />
+      
       <CircleBg />
 
       <Script strategy="beforeInteractive" src="/js/wow.min.js"></Script>

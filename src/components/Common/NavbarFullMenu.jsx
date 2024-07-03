@@ -85,7 +85,7 @@ function NavbarFullMenu({ theme }) {
                 <div className="item">
                   <h6>Email :</h6>
                   <p>
-                    <a href="#0">hello@gatkod@gmail.com</a>
+                    <a href="#0">hello@gatekod.com</a>
                   </p>
                 </div>
               </div>

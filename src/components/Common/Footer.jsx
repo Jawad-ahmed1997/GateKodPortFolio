@@ -57,7 +57,7 @@ function Footer({ hideBGCOLOR }) {
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
                     <h6>Email Us</h6>
-                    <p>hello@gatekod@gmail.com
+                    <p>hello@gatekod.com
                     </p>
                   </div>
                 </li>

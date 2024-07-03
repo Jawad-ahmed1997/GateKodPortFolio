@@ -1085,7 +1085,7 @@ span:hover {
   transition-delay: 1s;
 }
 
-.loading {
+/* .loading {
   color: black;
   position: fixed;
   left: 50%;
@@ -1098,9 +1098,9 @@ span:hover {
   text-transform: uppercase;
   letter-spacing: 10px;
   z-index: 9999999999;
-}
+} */
 
-.loading.isdone {
+/* .loading.isdone {
   top: 50%;
   opacity: 0;
   -webkit-transition: all 0.8s;
@@ -1109,7 +1109,7 @@ span:hover {
   -webkit-transition-delay: 0.5s;
   -o-transition-delay: 0.5s;
   transition-delay: 0.5s;
-}
+} */
 
 .loading span {
   -webkit-animation: loading 1.4s infinite alternate;
