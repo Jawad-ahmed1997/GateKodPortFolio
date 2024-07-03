@@ -26,7 +26,7 @@ function NavbarArch({ theme }) {
   return (
     <nav className="navbar navbar-expand-lg" ref={navbarRef}>
       <div className="container">
-        <a className="logo" href="/">
+        <a className="logo" href="/home">
           {
             theme ?
               (theme === "themeL" ? (<img src={appData.darkLogo} alt="logo" />) : (<img src={appData.lightLogo} alt="logo" />))

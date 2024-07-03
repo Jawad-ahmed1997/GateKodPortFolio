@@ -8,21 +8,18 @@ function Footer({ hideBGCOLOR }) {
         <div className="col-lg-4">
             <div className="item">
               <div className="logo">
+                
                 <img src="/img/logo-light.png" alt="logo" />
               </div>
               <div className="social">
-                <a href="#0">
+                <a target='blank' href="https://www.facebook.com/gatekod">
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="#0">
-                  <i className="fab fa-twitter"></i>
+              
+                <a target='blank' href="https://www.linkedin.com/company/gatekod/people/">
+                  <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="#0">
-                  <i className="fab fa-instagram"></i>
-                </a>
-                <a href="#0">
-                  <i className="fab fa-youtube"></i>
-                </a>
+               
               </div>
               {/* <div className="copy-right">
                 <p>
@@ -32,7 +29,7 @@ function Footer({ hideBGCOLOR }) {
             </div>
           </div>
           <div className="col-lg-4">
-            <div className="item md-mb50">
+            <div className="item md-mb50 md-mt50">
               <ul> 
                 <li>
                   <div className="subscribe">
@@ -44,7 +41,7 @@ function Footer({ hideBGCOLOR }) {
             </div>
           </div>
           <div className="col-lg-4">
-            <div className="item md-mb50">
+            <div className="item md-mb50 ">
               <div className="title">
                 <h5>Contact Us</h5>
               </div>

@@ -60,18 +60,13 @@ function ContactForm({ theme }) {
                 </h6>
               </div>
               <div className="social mt-50">
-                <a href="#0" className="icon">
+                <a target='blank' href="https://www.facebook.com/gatekod" className="icon">
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="#0" className="icon">
-                  <i className="fab fa-twitter"></i>
+                <a target='blank' href="https://www.linkedin.com/company/gatekod/people/" className="icon">
+                  <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="#0" className="icon">
-                  <i className="fab fa-pinterest"></i>
-                </a>
-                <a href="#0" className="icon">
-                  <i className="fab fa-behance"></i>
-                </a>
+             
               </div>
             </div>
           </div>

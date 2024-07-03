@@ -12,7 +12,7 @@ const NavbarMobileApp = ({ lr, nr, theme }) => {
       <div className="container">
         <Link href="/" className="logo">
           {theme ? (
-            theme === "themeL" ? (
+            theme === "theme" ? (
               <img ref={lr} src={appData.darkLogo} alt="logo" />
             ) : (
               <img ref={lr} src={appData.lightLogo} alt="logo" />

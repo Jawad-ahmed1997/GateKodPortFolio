@@ -38,7 +38,7 @@ const Navbar = ({ lr,themeMode }) => {
   return (
     <nav ref={navbar} className={`navbar navbar-expand-lg change ${theme  === "light" ? "" : "light"}`}>
       <div className="container">
-        <Link className="logo" href="/">
+        <Link className="logo" href="/home">
           { theme ? (
              theme==="light" ? (
               <img ref={lr} src={appData?.lightLogo} alt="logo" />

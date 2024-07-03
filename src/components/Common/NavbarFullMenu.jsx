@@ -14,7 +14,7 @@ function NavbarFullMenu({ theme }) {
       <div id="navi" className={`topnav ${theme ? (theme === 'light' ? 'light' : '') : ''}`}>
         <div className="container-fluid">
           <div style={{ width: 150, marginBottom: -100 }}>
-            <a href="#0">
+            <a href="/home">
               <img
                 src={isOpen ? appData.darkLogo : appData.lightLogo}
                 width={200}

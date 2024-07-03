@@ -3868,7 +3868,7 @@ body {
 
 .about .ftbox ul li {
   width: 100%;
-  padding: 35px 25px;
+  padding: 35px 2px;
   text-align: center;
   background: #f5f5f5;
   border-radius: 5px;
@@ -8168,6 +8168,11 @@ footer .item .copy-right p a {
 
   .md-mb50 {
     margin-bottom: 50px;
+    
+  }
+  .md-mt50 {
+    margin-top: 50px;
+ 
   }
 
   .md-mb60 {

@@ -91,18 +91,13 @@ function SliderHeader() {
         <div className="swiper-pagination top botm"></div>
 
         <div className="social-icon">
-          <a href="#">
+          <a target='blank' href="https://www.facebook.com/gatekod">
             <i className="fab fa-facebook-f"></i>
           </a>
-          <a href="#">
-            <i className="fab fa-twitter"></i>
+          <a target='blank' href="https://www.linkedin.com/company/gatekod/people/">
+            <i className="fab fa-linkedin"></i>
           </a>
-          <a href="#">
-            <i className="fab fa-behance"></i>
-          </a>
-          <a href="#">
-            <i className="fab fa-pinterest-p"></i>
-          </a>
+         
         </div>
       </div>
     </header>
