@@ -24,7 +24,7 @@ export default function Home4() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 2100); // 3 seconds
+    }, 2300); // 3 seconds
 
     return () => clearTimeout(timer);
   }, []);
