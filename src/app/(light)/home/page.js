@@ -1,5 +1,5 @@
-
-import React from 'react';
+'use client'
+import React, { useEffect, useState } from 'react';
 //= Page components
 import Loading from '@/components/Common/Loader';
 import Navbar from '@/components/Common/Navbar';
@@ -19,9 +19,22 @@ import LoadingScreen from '@/components/Common/Loader';
 
 
 export default function Home4() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2100); // 3 seconds
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <LoadingScreen />; // Replace with your loading component
+  }
   return (
     <>
-      <LoadingScreen />
+      {/* <LoadingScreen /> */}
       <Cursor />
       <CircleBg />
       <Navbar themeMode="light" />
