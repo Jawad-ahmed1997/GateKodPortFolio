@@ -15,7 +15,6 @@ import CallToAction from '@/components/Others/CallToAction';
 import Footer from '@/components/Common/Footer';
 
 function AboutLight() {
- 
   return (
     <>
       <Loading />

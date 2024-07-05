@@ -40,25 +40,7 @@
       }
     ],
     "intro": {
-      "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part.",
-      "spmList": [
-        {
-          "id": 1,
-          "name": "Aenean sollicitudin"
-        },
-        {
-          "id": 2,
-          "name": "lorem quis bibendum auctor"
-        },
-        {
-          "id": 31,
-          "name": "nisi elit conseq uat ipsum"
-        },
-        {
-          "id": 4,
-          "name": "nec sagittis sem nibh id elit"
-        }
-      ]
+      "content": "RS CAB: Rides in Seconds with Confidence and Peace of Mind. RS CAB offers seamless ride-hailing services where every driver is background checked and safety certified, ensuring you reach your destination with confidence. With RS CAB, booking a ride is as easy as tapping your phone. Compare vehicle rates, get fare quotes, and track your ride in real-time—all from the convenience of your mobile device. "
     },
     "gallery": [
       "/img/portfolio/project1/1.png",
@@ -68,7 +50,35 @@
       "/img/portfolio/project1/7.png"
     ],
     "description": {
-      "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part."
+      "Head": "Your Trusted Ride-Hailing Solution",
+      "content": "RS CAB provides a reliable and efficient ride-hailing experience with a range of features designed to enhance convenience and safety. With cutting-edge features and top-notch security measures, you can rest assured that your data is protected and accessible whenever you need it, even in unexpected situations.",
+      "keyFetures": [
+        {
+          "id": 1,
+          "title": "Background-Checked Drivers",
+          "Description": "Every driver is thoroughly screened and safety certified for your peace of mind."
+        },
+        {
+          "id": 2,
+          "title": "Instant Booking",
+          "Description": "Book a car anytime, anywhere with just a tap on your phone."
+        },
+        {
+          "id": 3,
+          "title": "Fare Comparison and Quotes",
+          "Description": "Compare rates for different vehicles and receive fare quotes directly in the app."
+        },
+        {
+          "id": 4,
+          "title": "Real-Time Ride Tracking",
+          "Description": "Track your ride from the moment a driver is assigned until you reach your destination."
+        },
+        {
+          "id": 5,
+          "title": "Secure Payment Options",
+          "Description": "Pay securely via card, Careem Pay, Apple Pay, or cash, with receipts emailed upon arrival."
+        }
+      ]
     }
   },
   {
@@ -117,34 +127,51 @@
       }
     ],
     "intro": {
-      "content": "PicckR is an All-in-One game-changing P2P Delivery App that aims to address the limitations and challenges faced by individuals and businesses in accessing affordable, flexible, and personalized delivery services in the current logistics landscape.",
+      "content": "PicckR: Your Delivery, Our Priority PicckR is a revolutionary P2P delivery app providing reliable, convenient, and affordable delivery services for individuals and businesses. It overcomes traditional logistics challenges by offering flexible and personalized solutions.",
       "spmList": [
         {
           "id": 1,
-          "name": "Aenean sollicitudin"
+          "name": "Affordable and Flexible"
         },
         {
           "id": 2,
-          "name": "lorem quis bibendum auctor"
+          "name": "Comprehensive Solution"
         },
         {
           "id": 31,
-          "name": "nisi elit conseq uat ipsum"
+          "name": "Income Opportunities"
         },
         {
           "id": 4,
-          "name": "nec sagittis sem nibh id elit"
+          "name": "User-Friendly Process"
         }
       ]
     },
     "gallery": [
       "/img/portfolio/project2/1.jpeg",
       "/img/portfolio/project2/2.jpeg",
-    
       "/img/portfolio/project2/7.jpeg"
     ],
     "description": {
-      "content": "PicckR is an All-in-One game-changing P2P Delivery App that aims to address the limitations and challenges faced by individuals and businesses in accessing affordable, flexible, and personalized delivery services in the current logistics landscape."
+      "Head": "Reliable Delivery Solutions for Everyone",
+      "content": "PicckR connects users with reliable delivery services, ensuring affordability, flexibility, and convenience.",
+      "keyFetures": [
+        {
+          "id": 1,
+          "title": "Side Hustle Opportunities",
+          "Description": "Earn extra income by picking up deliveries during your daily activities."
+        },
+        {
+          "id": 2,
+          "title": "Shopping Deliveries",
+          "Description": "Have your purchases from favorite stores delivered seamlessly."
+        },
+        {
+          "id": 3,
+          "title": "Meal Delivery",
+          "Description": "Get your favorite meals delivered quickly and reliably."
+        }
+      ]
     }
   },
   {
@@ -188,23 +215,23 @@
       }
     ],
     "intro": {
-      "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part.",
+      "content": "Konkral: Simplifying Home Construction Supplies.                  Konkral offers a comprehensive solution for purchasing sanitary supplies and materials for home construction. Whether you’re building a new home or renovating an existing one, Konkral provides an efficient and accurate solution tailored to your specific needs.",
       "spmList": [
         {
           "id": 1,
-          "name": "Aenean sollicitudin"
+          "name": "Multi-Step Questionnaire"
         },
         {
           "id": 2,
-          "name": "lorem quis bibendum auctor"
+          "name": "Personalized Recommendations"
         },
         {
           "id": 31,
-          "name": "nisi elit conseq uat ipsum"
+          "name": "Accurate Calculations"
         },
         {
           "id": 4,
-          "name": "nec sagittis sem nibh id elit"
+          "name": "Efficient Solution"
         }
       ]
     },
@@ -216,7 +243,30 @@
       "/img/portfolio/project3/7.jpg"
     ],
     "description": {
-      "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part."
+      "Head": "Streamlined Shopping for Home Construction Supplies",
+      "content": "Konkral transforms the way you shop for home construction materials by offering a personalized, efficient, and accurate purchasing experience. With cutting-edge features and top-notch security measures, you can rest assured that your data is protected and accessible whenever you need it, even in unexpected situations.",
+      "keyFetures": [
+        {
+          "id": 1,
+          "title": "Multi-Step Questionnaire Process",
+          "Description": "Users specify the area of the home (e.g., kitchen, bathroom) they need to construct or reconstruct."
+        },
+        {
+          "id": 2,
+          "title": "Personalized Material Suggestions",
+          "Description": "The app generates a customized list of items required for the project, ensuring all necessary materials are included."
+        },
+        {
+          "id": 3,
+          "title": "Accurate Material and Cost Calculation",
+          "Description": "Konkral calculates the exact quantities of materials needed and provides a total cost estimate, helping users stay within budget."
+        },
+        {
+          "id": 4,
+          "title": "User-Friendly Interface",
+          "Description": "Intuitive design makes it easy for users to input their preferences and receive comprehensive recommendations."
+        }
+      ]
     }
   },
   {
@@ -260,35 +310,43 @@
       }
     ],
     "intro": {
-      "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part.",
-      "spmList": [
-        {
-          "id": 1,
-          "name": "Aenean sollicitudin"
-        },
-        {
-          "id": 2,
-          "name": "lorem quis bibendum auctor"
-        },
-        {
-          "id": 31,
-          "name": "nisi elit conseq uat ipsum"
-        },
-        {
-          "id": 4,
-          "name": "nec sagittis sem nibh id elit"
-        }
-      ]
+      "content": "Netsome is a powerful CRM (Customer Relationship Management) system designed to streamline and optimize how businesses manage their interactions with current and potential customers. From tracking leads to nurturing relationships and closing deals, Netsome helps businesses maintain effective communication and improve customer satisfaction."
     },
     "gallery": [
       "/img/portfolio/project4/3.jpeg",
-    
       "/img/portfolio/project4/4.jpeg",
-  
       "/img/portfolio/project4/7.jpeg"
     ],
     "description": {
-      "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part."
+      "Head": "Enhancing Customer Relationships with Netsome",
+      "content": "Netsome offers comprehensive tools and features tailored to meet the diverse needs of businesses aiming to enhance their customer relationships.",
+      "keyFetures": [
+        {
+          "id": 1,
+          "title": "Lead Management",
+          "Description": "Capture, track, and manage leads efficiently through a centralized platform."
+        },
+        {
+          "id": 2,
+          "title": "Customer Communication",
+          "Description": "Maintain seamless communication with customers via integrated email, SMS, and social media channels."
+        },
+        {
+          "id": 3,
+          "title": "Sales Pipeline Management",
+          "Description": "Visualize and manage your sales pipeline to track opportunities and forecast revenue."
+        },
+        {
+          "id": 4,
+          "title": "Task and Calendar Management",
+          "Description": "Organize tasks, set reminders, and schedule appointments to stay on top of your agenda."
+        },
+        {
+          "id": 5,
+          "title": "Analytics and Reporting",
+          "Description": "Gain insights into your business performance with customizable reports and analytics."
+        }
+      ]
     }
   },
   {
@@ -332,34 +390,56 @@
       }
     ],
     "intro": {
-      "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part.",
+      "content": "Vault System Mobile App: Unparalleled Security at Your Peace of Mind This mobile app provides a secure vault system for all your sensitive information. With cutting-edge features, you can rest assured your data is protected and accessible whenever you need it, even in unexpected situations.",
       "spmList": [
         {
           "id": 1,
-          "name": "Aenean sollicitudin"
+          "name": "Multi-Factor Authentication with Biometric Verification"
         },
         {
           "id": 2,
-          "name": "lorem quis bibendum auctor"
+          "name": "Payment Gateway Integration"
         },
         {
           "id": 31,
-          "name": "nisi elit conseq uat ipsum"
+          "name": "AWS S3 Bucket Storage"
         },
         {
           "id": 4,
-          "name": "nec sagittis sem nibh id elit"
+          "name": "Continuity Switch with Nominee Notification"
         }
       ]
     },
     "gallery": [
       "/img/portfolio/project5/1.jpeg",
       "/img/portfolio/project5/2.jpeg",
-      
       "/img/portfolio/project5/7.jpeg"
     ],
     "description": {
-      "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part."
+      "Head": "Vault System Mobile App: Unparalleled Security for Your Peace of Mind",
+      "content": "Introducing the Vault System Mobile App, your ultimate solution for securing sensitive information. With cutting-edge features and top-notch security measures, you can rest assured that your data is protected and accessible whenever you need it, even in unexpected situations.",
+      "keyFetures": [
+        {
+          "id": 1,
+          "title": "Multi-Factor Authentication with Biometric Verification",
+          "Description": "Enhance your security with multi-factor authentication, including biometric verification, ensuring that only you can access your sensitive information."
+        },
+        {
+          "id": 2,
+          "title": "Payment Gateway Integration",
+          "Description": "Securely manage your transactions with integrated payment gateway support, providing a seamless and safe way to handle financial operations."
+        },
+        {
+          "id": 3,
+          "title": "AWS S3 Bucket Storage",
+          "Description": "Benefit from reliable and scalable cloud storage using AWS S3 buckets, guaranteeing the safety and availability of your data at all times."
+        },
+        {
+          "id": 4,
+          "title": "Continuity Switch with Nominee Notification",
+          "Description": "Continuity Switch with Nominee Notification"
+        }
+      ]
     }
   }
 ]

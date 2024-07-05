@@ -2,16 +2,7 @@
 import Script from "next/script";
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-//= Scripts
-import generateStylesheetObject from '@/common/generateStylesheetsObject';
-//= Common Components
-import LoadingScreen from "@/components/Common/Loader";
-import Cursor from "@/components/Common/Cursor";
-import ProgressScroll from "@/components/Common/ProgressScroll";
-//= Page Components
-import CircleBg from "@/components/Demos/CircleBg";
-import Header from "@/components/Demos/Header";
-import MainContent from "@/components/Demos/MainContent";
+
 
 // export const metadata = {
 //   title: 'GateKod',
@@ -31,15 +22,10 @@ export default function LandingPreview() {
   const router = useRouter();
 
   useEffect(() => {
-      router.push('/home');
+    router.push('/home');
   }, [router]);
   return (
     <>
-      <LoadingScreen />
-      <Cursor />
-      
-      <CircleBg />
-
       <Script strategy="beforeInteractive" src="/js/wow.min.js"></Script>
       <Script strategy="beforeInteractive" src="/js/splitting.min.js"></Script>
       <Script strategy="beforeInteractive" src="/js/simpleParallax.min.js"></Script>

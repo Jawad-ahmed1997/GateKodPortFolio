@@ -6,7 +6,7 @@ function LoadingScreen() {
   useEffect(() => {
     setTimeout(() => {
       if (typeof Pace !== 'undefined') loadingPace();
-    }, 1000);
+    }, 4000);
   });
 
   return (

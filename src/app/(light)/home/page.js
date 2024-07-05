@@ -13,15 +13,20 @@ import Team from '@/components/Team/Team1';
 import Blogs from '@/components/Blogs/Blogs4';
 import SContactForm from '@/components/Contact/ContactFormS';
 import Footer from '@/components/Common/Footer';
+import Cursor from '@/components/Common/Cursor';
+import CircleBg from '@/components/Demos/CircleBg';
+import LoadingScreen from '@/components/Common/Loader';
 
 
 export default function Home4() {
   return (
     <>
-      <Loading />
-      <Navbar  themeMode="light"  />
+      <LoadingScreen />
+      <Cursor />
+      <CircleBg />
+      <Navbar themeMode="light" />
       <SliderHeader />
-      <div class="main-content">
+      <div className="main-content">
         <AboutUs />
         <Services lines />
         <Portfolio grid={2} filterPosition="left" />

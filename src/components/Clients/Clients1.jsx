@@ -1,12 +1,18 @@
-import React from "react";
+'use client'
+import React, { useEffect } from "react";
 //= Components
 import Split from "@/components/Common/Split";
 //= Static Data
 import ClientsData from "@/data/sections/clients.json";
 
 function Clients({ theme }) {
-  const first = ClientsData.slice(0, ClientsData.length / 2);
-  const second = ClientsData.slice(4, ClientsData.length);
+ 
+
+
+    const first = ClientsData.slice(0,4 );
+    console.log("first",first)
+    const second = ClientsData.slice(4, ClientsData.length);
+    console.log("second",second)
 
   return (
     <section className="clients section-padding">
@@ -27,26 +33,26 @@ function Clients({ theme }) {
           <div className="col-lg-8">
             <div>
               <div className="row bord">
-                {first.map((item) => (
-                  <div key={item.id} className="col-md-3 col-6 brands">
+                {first?.map((item) => (
+                  <div key={item?.id} className="col-md-3 col-6 brands">
                     <div
                       className="item wow fadeIn"
-                      data-wow-delay={`${item.id == 1
+                      data-wow-delay={`${item?.id == 1
                         ? ".3"
-                        : item.id == 2
+                        : item?.id == 2
                           ? ".6"
-                          : item.id == 3
+                          : item?.id == 3
                             ? ".8"
-                            : item.id == 4
+                            : item?.id == 4
                               ? ".3"
                               : ""
                         }s`}
                     >
                       <div className="img">
                         {theme === "light" ? (
-                          <img src={item.lightImage} alt="" />
+                          <img src={item?.lightImage} alt="" />
                         ) : (
-                          <img src={item.darkImage} alt="" />
+                          <img src={item?.darkImage} alt="" />
                         )}
                         <Split>
                           <a
@@ -54,7 +60,7 @@ function Clients({ theme }) {
                             className="link words chars splitting"
                             data-splitting
                           >
-                            {item.url}
+                            {item?.url}
                           </a>
                         </Split>
                       </div>
@@ -65,36 +71,36 @@ function Clients({ theme }) {
               <div className="row">
                 {second.map((item) => (
                   <div
-                    key={item.id}
-                    className={`${item.id == 5
+                    key={item?.id}
+                    className={`${item?.id == 5
                       ? "col-md-3 col-6 brands sm-mb30"
-                      : item.id == 6
+                      : item?.id == 6
                         ? "col-md-3 col-6 brands sm-mb30"
-                        : item.id == 7
+                        : item?.id == 7
                           ? "col-md-3 col-6 brands"
-                          : item.id == 8
+                          : item?.id == 8
                             ? "col-md-3 col-6 brands"
                             : ""
                       }`}
                   >
                     <div
                       className="item wow fadeIn"
-                      data-wow-delay={`${item.id == 1
+                      data-wow-delay={`${item?.id == 1
                         ? ".4"
-                        : item.id == 2
+                        : item?.id == 2
                           ? ".7"
-                          : item.id == 3
+                          : item?.id == 3
                             ? ".5"
-                            : item.id == 4
+                            : item?.id == 4
                               ? ".3"
                               : ""
                         }s`}
                     >
                       <div className="img">
                         {theme === "light" ? (
-                          <img src={item.lightImage} alt="" />
+                          <img src={item?.lightImage} alt="" />
                         ) : (
-                          <img src={item.darkImage} alt="" />
+                          <img src={item?.darkImage} alt="" />
                         )}
                         <Split>
                           <a
@@ -102,7 +108,7 @@ function Clients({ theme }) {
                             className="link words chars splitting"
                             data-splitting
                           >
-                            {item.url}
+                            {item?.url}
                           </a>
                         </Split>
                       </div>

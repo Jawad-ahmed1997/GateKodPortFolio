@@ -18,7 +18,11 @@ function ProjectIntroduction({project}) {
               <p className="extra-text">
                 {project?.content}
               </p>
-            
+              <ul className="smp-list mt-30">
+           {project?.spmList?.map((list)=>(
+            <li key={list?.id} >{list.name}</li>
+           ))}
+              </ul>
             </div>
           </div>
         </div>
