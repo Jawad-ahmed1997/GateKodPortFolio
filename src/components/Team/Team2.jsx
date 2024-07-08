@@ -46,15 +46,15 @@ function Team2() {
                       <use xlinkHref="#circlePath1" fill="none" />
                       <text fill="#fff">
                         <textPath xlinkHref="#circlePath1">
-                          CEO Manager CEO Manager CEO Manager
+                        chief executive officer chief executive officer
                         </textPath>
                       </text>
                     </g>
                   </svg>
                 </div>
                 <div className="info">
-                  <h6>Ryan Hicks</h6>
-                  <span>Client Manager</span>
+                  <h6>Fawad Raza</h6>
+                  <span>CEO</span>
                 </div>
               </div>
             </div>
@@ -86,15 +86,15 @@ function Team2() {
                       <use xlinkHref="#circlePath2" fill="none" />
                       <text fill="#fff">
                         <textPath xlinkHref="#circlePath2">
-                          Interior Designer Interior Designer Interior Designer
+                        chief financial officer chief financial officer
                         </textPath>
                       </text>
                     </g>
                   </svg>
                 </div>
                 <div className="info">
-                  <h6>Ryan Hicks</h6>
-                  <span>Client Manager</span>
+                  <h6>Muhmmad Irfan</h6>
+                  <span>CFO</span>
                 </div>
               </div>
             </div>
@@ -102,7 +102,7 @@ function Team2() {
           <div className="col-lg-3 col-md-6">
             <div className="item cir sm-mb50">
               <div className="img">
-                <img src="/img/team/3.jpg" alt="" />
+                <img src="/img/team/5.jpg" alt="" />
                 <div id="circle3">
                   <svg
                     version="1.1"
@@ -126,16 +126,15 @@ function Team2() {
                       <use xlinkHref="#circlePath3" fill="none" />
                       <text fill="#fff">
                         <textPath xlinkHref="#circlePath3">
-                          Landscape Designer Landscape Designer Landscape
-                          Designer
+                          Head Of Buisness Development
                         </textPath>
                       </text>
                     </g>
                   </svg>
                 </div>
                 <div className="info">
-                  <h6>Ryan Hicks</h6>
-                  <span>Client Manager</span>
+                  <h6>Qandeel Zahra</h6>
+                  <span>BDM</span>
                 </div>
               </div>
             </div>
@@ -167,15 +166,15 @@ function Team2() {
                       <use xlinkHref="#circlePath4" fill="none" />
                       <text fill="#fff">
                         <textPath xlinkHref="#circlePath4">
-                          Client Manager Client Manager Client Manager
+                          SENIOR SOFTWARE DEVELOPER
                         </textPath>
                       </text>
                     </g>
                   </svg>
                 </div>
                 <div className="info">
-                  <h6>Ryan Hicks</h6>
-                  <span>Client Manager</span>
+                  <h6>Afzal Ahmed</h6>
+                  <span>software developer</span>
                 </div>
               </div>
             </div>

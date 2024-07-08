@@ -9,7 +9,7 @@ import Services from '@/components/Services/Services1';
 import Portfolio from '@/components/Portfolio';
 import Testimonials from '@/components/Testimonials/TestimonialsWithVideo';
 import Clients from '@/components/Clients/Clients2';
-import Team from '@/components/Team/Team1';
+import Team from '@/components/Team/Team2';
 import Blogs from '@/components/Blogs/Blogs4';
 import SContactForm from '@/components/Contact/ContactFormS';
 import Footer from '@/components/Common/Footer';
@@ -45,7 +45,7 @@ export default function Home4() {
         <Portfolio grid={2} filterPosition="left" />
         <Testimonials />
         <Clients theme="light" length={4} />
-        {/* <Team /> */}
+        <Team />
         {/* <Blogs /> */}
         {/* <SContactForm /> */}
         <Footer hideBGCOLOR />
