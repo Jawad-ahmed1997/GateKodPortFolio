@@ -142,7 +142,7 @@ function Team2() {
           <div className="col-lg-3 col-md-6">
             <div className="item cir">
               <div className="img">
-                <img src="/img/team/4.jpg" alt="" />
+                <img src="/img/team/04.jpg" alt="" />
                 <div id="circle4">
                   <svg
                     version="1.1"

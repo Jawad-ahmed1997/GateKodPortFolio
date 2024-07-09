@@ -16,11 +16,11 @@ function Clients2({ theme }) {
                 return (
                   <div key={item.id} className="col-lg-3 brands">
                   <div className="item no-bord wow fadeIn" data-wow-delay=".3s">
-                    <div className="img" >
+                    <div className="img"  >
                       {theme === "light" ? (
-                        <img src={item.lightImage}  alt="" />
+                        <img  src={item.lightImage}  alt="" />
                       ) : (
-                        <img src={item.darkImage}  alt="" />
+                        <img width={200} src={item.darkImage}  alt="" />
                       )}
                       <Split>
                         <a

@@ -3,31 +3,31 @@
       "id": 1,
       "lightImage": "/img/clients/brands/light/01.png",
       "darkImage": "/img/clients/brands/dark/01.png",
-      "url": "www.picckr.com"
+      "url": "Picckr"
     },
     {
       "id": 2,
       "lightImage": "/img/clients/brands/light/02.png",
       "darkImage": "/img/clients/brands/dark/02.png",
-      "url": "www.lifexs.ca"
+      "url": "lifexs"
     },
     {
       "id": 3,
       "lightImage": "/img/clients/brands/light/03.png",
       "darkImage": "/img/clients/brands/dark/03.png",
-      "url": "lio-web-mu.vercel.app"
+      "url": "lio"
     },
     {
       "id": 4,
       "lightImage": "/img/clients/brands/light/04.png",
       "darkImage": "/img/clients/brands/dark/04.png",
-      "url": "netsome-new-fork.vercel.app"
+      "url": "Netsome"
     },
     {
       "id": 5,
       "lightImage": "/img/clients/brands/light/05.png",
       "darkImage": "/img/clients/brands/dark/05.png",
-      "url": "www.rscab.com"
+      "url": ""
     }
   
     

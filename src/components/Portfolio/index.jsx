@@ -4,24 +4,21 @@ import Link from "next/link";
 //= Scripts
 import initIsotope from "@/common/initIsotope";
 import portFolio from "@/data/portfolio.json";
-
 function Portfolio({ grid, filterPosition }) {
   useEffect(() => {
     setTimeout(() => {
       initIsotope();
     }, 500)
   }, []);
-
   return (
     <section className="portfolio section-padding pb-70">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8 col-md-10">
             <div className="sec-head text-center">
-              <h6 className="wow fadeIn" data-wow-delay=".5s">Portfolio</h6>
+              {/* <h6 className="wow fadeIn" data-wow-delay=".5s">Portfolio</h6> */}
               <h3 className="wow color-font">
-                Our Recent Web Design &amp; <br/>
-                Some Past Projects.
+              Case Study
               </h3>
             </div>
           </div>

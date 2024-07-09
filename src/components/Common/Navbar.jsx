@@ -82,7 +82,7 @@ const Navbar = ({ lr,themeMode }) => {
             </li>
             <li className="nav-item ">
             <a className="nav-link" href={`/showcase`}>
-            Works
+            Case Study
               </a>
              
               
