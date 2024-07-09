@@ -174,7 +174,7 @@ function Team2() {
                 </div>
                 <div className="info">
                   <h6>Afzal Ahmed</h6>
-                  <span>software developer</span>
+                  <span>Senior Software Developer</span>
                 </div>
               </div>
             </div>

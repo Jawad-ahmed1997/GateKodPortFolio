@@ -18,7 +18,7 @@ function Portfolio({ grid, filterPosition }) {
             <div className="sec-head text-center">
               {/* <h6 className="wow fadeIn" data-wow-delay=".5s">Portfolio</h6> */}
               <h3 className="wow color-font">
-              Case Study
+              Case Studies
               </h3>
             </div>
           </div>
