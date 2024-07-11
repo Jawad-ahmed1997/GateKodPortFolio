@@ -49,16 +49,7 @@ function ContactForm({ theme }) {
                 </h5>
                 
               </div>
-              <Split>
-                <h3 className="wow" data-splitting>Visit Us.</h3>
-              </Split>
-              <div className="item">
-                <h6>
-                  {contentFormData.location.first}
-                  <br />
-                  {contentFormData.location.second}
-                </h6>
-              </div>
+            
               <div className="social mt-50">
                 <a target='blank' href="https://www.facebook.com/gatekod" className="icon">
                   <i className="fab fa-facebook-f"></i>
