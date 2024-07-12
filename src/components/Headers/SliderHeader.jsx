@@ -55,10 +55,8 @@ function SliderHeader() {
           {
             intro1Data.map(slide => (
               <SwiperSlide key={slide.id} className="swiper-slide">
-                <div className="bg-img valign"  data-overlay-dark="6">
-                    <video autoPlay loop muted playsInline className="video-bg">
-                    <source src="/img/slid/homeVedio.mp4" type="video/mp4" />
-                  </video>
+                <div className="bg-img valign" style={{ backgroundImage: `url(${slide.image})` }} data-overlay-dark="6">
+                    
                   <div className="container">
                     <div className="row justify-content-center">
                       <div className="col-lg-8 col-md-10">
