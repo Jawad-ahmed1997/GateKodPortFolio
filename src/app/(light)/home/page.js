@@ -17,6 +17,7 @@ import Cursor from '@/components/Common/Cursor';
 import CircleBg from '@/components/Demos/CircleBg';
 import LoadingScreen from '@/components/Common/Loader';
 import ProjectProcess from '@/components/ProjectProcess/process';
+import Calendly from '@/components/Calendly/page';
 
 
 export default function Home4() {
@@ -44,7 +45,8 @@ export default function Home4() {
         <AboutUs />
         <Services lines />
         <Portfolio grid={2} filterPosition="left"/>
-        {/* <ProjectProcess/> */}
+        {/* <ProjectProcess lines/> */}
+        {/* <Calendly grid={2}  /> */}
         <Testimonials />
         <Clients theme="light" length={4} />
         <Team />

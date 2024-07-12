@@ -9,20 +9,30 @@
   "features": [
     {
       "id": 1,
-      "icon": "gleam",
-      "name": { "first": "Pixel", "second": "Perfect" },
+      "icon": "info",
+      "name": { "first": "1. Initial consultation", "second": "Perfect" },
+      "description":"In a short, non-binding appointment, we will give you a transparent assessment of a web or digitization project. YOU decide what to do with it!",
       "wowDelay": ".3s"
     },
     {
       "id": 2,
-      "icon": "paint-bucket",
-      "name": { "first": "Creative", "second": "Design" },
+      "icon": "search",
+      "name": { "first": "2. Detailed analysis", "second": "Design" },
+      "description":"In order to start a successful project, we work with you to build a precise and deep understanding of the current situation and requirements.",
       "wowDelay": ".5s"
     },
     {
       "id": 3,
-      "icon": "medal",
-      "name": { "first": "High", "second": "Perfomance" },
+      "icon": "loop",
+      "name": { "first": "3. Planning and implementation", "second": "Perfomance" },
+      "description":"We plan and implement the project together through constant communication. Regular updates and a clear structure give you full control over the project.",
+      "wowDelay": ".8s"
+    },
+    {
+      "id": 4,
+      "icon": "play",
+      "name": { "first": "4. Support", "second": "Perfomance" },
+      "description":"We won't leave you alone! If desired, we will also support our customers in the long term in close and transparent cooperation.",
       "wowDelay": ".8s"
     }
   ]

@@ -4,9 +4,10 @@ import Split from "@/components/Common/Split";
 //= Static Data
 import AboutUs2Date from "@/data/sections/process.json";
 
-const ProjectProcess = () => {
+const ProjectProcess = ({style,lines}) => {
   return (
-    <div className="process about section-padding">
+    <>
+    <div className="process section-padding">
       <div className="container">
         <div className="row">
         <div className="row justify-content-center">
@@ -18,6 +19,7 @@ const ProjectProcess = () => {
               <h3 className="wow color-font">
               This is how we make your project a success.
               </h3>
+             
             </div>
           </div>
         </div>
@@ -34,13 +36,9 @@ const ProjectProcess = () => {
                   {AboutUs2Date.title.first} <br /> {AboutUs2Date.title.second}
                 </h3>
               </Split> */}
-              <Split>
-                <p className="words chars splitting wow txt" data-splitting>
-                  {AboutUs2Date.content}
-                </p>
-              </Split>
-              <div className="ftbox mt-30">
-                <ul>
+             
+              <div className="ftbox ">
+                <ul className="">
                   {AboutUs2Date.features.map((feature) => (
                     <li
                       key={feature.id}
@@ -49,10 +47,17 @@ const ProjectProcess = () => {
                     >
                       <span
                         className={`icon color-font pe-7s-${feature.icon}`}
+
                       ></span>
-                      <h6>
-                        {feature.name.first} <br /> {feature.name.second}
-                      </h6>
+                      <div style={{display:"flex",flexDirection:'column',justifyContent:"start" ,alignItems:"start"}}>
+
+                      <h5 style={{textAlign:"left"}}>
+                        {feature.name.first}
+                      </h5>
+                      <p>
+                        {feature.description} 
+                      </p>
+                      </div>
                       <div className="dots">
                         <span></span>
                         <span></span>
@@ -65,8 +70,8 @@ const ProjectProcess = () => {
             </div>
           </div>
           <div className="col-lg-5">
-            <div className="img-mons sm-mb30">
-              <div className="row">
+            <div className="img-mons sm-mb30 " style={{display:"flex",alignItems:"center",height:"100%",justifyContent:"center"}}>
+              <div className="row"  >
                 <div className="col-md-5 cmd-padding valign">
                   <div className="img1 wow imago" data-wow-delay=".5s">
                     <img src={AboutUs2Date.image1} alt="" />
@@ -95,6 +100,10 @@ const ProjectProcess = () => {
         </div>
       </div>
     </div>
+    
+
+  
+    </>
   );
 };
 
