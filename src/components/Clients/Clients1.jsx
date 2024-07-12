@@ -66,7 +66,7 @@ function Clients({ theme }) {
                 ))}
               </div>
               <div className="row">
-                {/* {second.map((item) => (
+                {second.map((item) => (
                   <div
                     key={item?.id}
                     className={`${item?.id == 5
@@ -111,7 +111,7 @@ function Clients({ theme }) {
                       </div>
                     </div>
                   </div>
-                ))} */}
+                ))}
               </div>
             </div>
           </div>
