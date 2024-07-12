@@ -3859,11 +3859,20 @@ body {
   margin-left: 30px;
 }
 
+.process .ftbox ul {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  
+}
 .about .ftbox ul {
   margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  
 }
 
 .about .ftbox ul li {

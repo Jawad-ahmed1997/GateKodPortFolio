@@ -49,21 +49,21 @@ function NavbarFullMenu({ theme }) {
 
                     <div className="o-hidden">
                       <a className="link" href="/home">
-                        <span className="nm">02.</span>Home
+                        <span className="nm">01.</span>Home
                       </a>
                     </div>
                   </li>
                   <li>
                     <div className="o-hidden">
                       <a className="link" href="/about">
-                        <span className="nm">02.</span>About Us
+                        <span className="nm">02.</span>About
                       </a>
                     </div>
                   </li>
                   <li>
                     <div className="o-hidden">
                       <a className="link" href="/showcase">
-                        <span className="nm">02.</span>Works
+                        <span className="nm">03.</span>Case Studies
                       </a>
                     </div>
 
@@ -72,7 +72,7 @@ function NavbarFullMenu({ theme }) {
                   <li>
                     <div className="o-hidden">
                       <a className="link" href="/contact">
-                        <span className="nm">05.</span>Contact
+                        <span className="nm">04.</span>Contact
                       </a>
                     </div>
                   </li>

@@ -16,6 +16,7 @@ import Footer from '@/components/Common/Footer';
 import Cursor from '@/components/Common/Cursor';
 import CircleBg from '@/components/Demos/CircleBg';
 import LoadingScreen from '@/components/Common/Loader';
+import ProjectProcess from '@/components/ProjectProcess/process';
 
 
 export default function Home4() {
@@ -42,7 +43,8 @@ export default function Home4() {
       <div className="main-content">
         <AboutUs />
         <Services lines />
-        <Portfolio grid={2} filterPosition="left" />
+        <Portfolio grid={2} filterPosition="left"/>
+        {/* <ProjectProcess/> */}
         <Testimonials />
         <Clients theme="light" length={4} />
         <Team />

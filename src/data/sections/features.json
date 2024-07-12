@@ -1,26 +1,27 @@
-[
+[ {
+    "id": 2,
+    "icon": "pe-7s-phone",
+    "title": "Web & Mobile Development",
+    "content": "we specialize in developing robust scalable web & mobile applications that deliver exceptional  business growth"
+},
+{
+    "id": 4,
+    "icon": "pe-7s-vector",
+    "title": "AI Apps Integrations",
+    "content": "we integrate cutting-edge AI technologies into your apps, enhancing functionality, user experience, and driving innovation."
+},
     {
         "id": 1,
         "icon": "pe-7s-paint-bucket",
         "title": "Graphic Design",
         "content": "we craft stunning visuals that captivate and engage, transforming your vision into reality with precision and creativity."
     },
-    {
-        "id": 2,
-        "icon": "pe-7s-phone",
-        "title": "Web & Mobile Development",
-        "content": "we specialize in developing robust scalable web & mobile applications that deliver exceptional user experiences and drive business growth"
-    },
+   
     {
         "id": 3,
         "icon": "pe-7s-display1",
         "title": "Social Media Marketing",
         "content": "we craft targeted social media strategies that boost engagement, grow your audience, and elevate your brand presence."
-    },
-    {
-        "id": 4,
-        "icon": "pe-7s-vector",
-        "title": "AI Apps Integrations",
-        "content": "we integrate cutting-edge AI technologies into your apps, enhancing functionality, user experience, and driving innovation."
     }
+   
 ]
