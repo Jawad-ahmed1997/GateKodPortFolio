@@ -19,7 +19,7 @@ function AboutLight() {
     <>
       <Loading />
       <Navbar  themeMode="dark"  />
-      <PagesHeader imageLink="/img/slid/about.jpg">Gateway to the exceptional software solutions.</PagesHeader>
+      <PagesHeader imageLink="/img/slid/about.jpg">Gateway to exceptional software solutions.</PagesHeader>
       <AboutIntro />
       <Services style="4item" />
       <TestimonialsWithVideo />

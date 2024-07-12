@@ -6,9 +6,6 @@ import Split from "@/components/Common/Split";
 import ClientsData from "@/data/sections/clients.json";
 
 function Clients({ theme }) {
- 
-
-
     const first = ClientsData.slice(0,4 );
     console.log("first",first)
     const second = ClientsData.slice(4, ClientsData.length);
@@ -69,7 +66,7 @@ function Clients({ theme }) {
                 ))}
               </div>
               <div className="row">
-                {second.map((item) => (
+                {/* {second.map((item) => (
                   <div
                     key={item?.id}
                     className={`${item?.id == 5
@@ -114,7 +111,7 @@ function Clients({ theme }) {
                       </div>
                     </div>
                   </div>
-                ))}
+                ))} */}
               </div>
             </div>
           </div>
