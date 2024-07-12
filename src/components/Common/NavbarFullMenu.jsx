@@ -11,7 +11,7 @@ function NavbarFullMenu({ theme }) {
 
   return (
     <>
-      <div id="navi" className={`topnav ${theme ? (theme === 'light' ? 'light' : '') : ''}`}>
+      <div id="navi"  className={`topnav ${theme ? (theme === 'light' ? 'light' : '') : ''}`} >
         <div className="container-fluid">
           <div style={{ width: 150, marginBottom: -100 }}>
             <a href="/home">
@@ -39,10 +39,10 @@ function NavbarFullMenu({ theme }) {
         </div>
       </div>
 
-      <div className="hamenu">
+      <div className="hamenu" >
         <div className="container">
-          <div className="row">
-            <div className="col-lg-9 col-md-8">
+          <div className="row" style={{overflow:"scroll"}}>
+            <div className="col-lg-9 col-md-8" >
               <div className="menu-links">
                 <ul className="main-menu">
                   <li>
