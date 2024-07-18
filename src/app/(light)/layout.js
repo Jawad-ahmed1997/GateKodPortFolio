@@ -3,7 +3,7 @@ import Script from "next/script";
 import generateStylesheetObject from '@/common/generateStylesheetsObject';
 //= Common Components
 import Cursor from "@/components/Common/Cursor";
-import ProgressScroll from "@/components/Common/ProgressScroll";
+// import ProgressScroll from "@/components/Common/ProgressScroll";
 
 export const metadata = {
   title: 'GateKod',
@@ -23,15 +23,15 @@ export default function LightLayout({ children }) {
   return (
     <>
       <Cursor />
-      <ProgressScroll />
+      {/* <ProgressScroll /> */}
       {children}
 
       <Script strategy="beforeInteractive" src="/js/wow.min.js"></Script>
       <Script strategy="beforeInteractive" src="/js/splitting.min.js"></Script>
       <Script strategy="beforeInteractive" src="/js/simpleParallax.min.js"></Script>
       <Script strategy="beforeInteractive" src="/js/isotope.pkgd.min.js"></Script>
-      <Script strategy="lazyOnload" src="/js/pace.min.js"></Script>
-      <Script strategy="lazyOnload" src="/js/wowInit.js"></Script>
+      {/* <Script strategy="lazyOnload" src="/js/pace.min.js"></Script> */}
+      {/* <Script strategy="lazyOnload" src="/js/wowInit.js"></Script> */}
     </>
   )
 }

@@ -1,25 +1,26 @@
-import React from 'react';
+import React from "react";
 
 function Footer({ hideBGCOLOR }) {
   return (
-    <footer className={`${!hideBGCOLOR ? 'sub-bg' : ''}`}>
+    <footer className={`${!hideBGCOLOR ? "sub-bg" : ""}`} id="contact">
       <div className="container">
         <div className="row">
-        <div className="col-lg-4">
+          <div className="col-lg-4">
             <div className="item">
               <div className="logo">
-                
                 <img src="/img/logo-light.png" alt="logo" />
               </div>
               <div className="social">
-                <a target='blank' href="https://www.facebook.com/gatekod">
+                <a target="blank" href="https://www.facebook.com/gatekod">
                   <i className="fab fa-facebook-f"></i>
                 </a>
-              
-                <a target='blank' href="https://www.linkedin.com/company/gatekod/people/">
+
+                <a
+                  target="blank"
+                  href="https://www.linkedin.com/company/gatekod/people/"
+                >
                   <i className="fab fa-linkedin"></i>
                 </a>
-               
               </div>
               {/* <div className="copy-right">
                 <p>
@@ -30,7 +31,7 @@ function Footer({ hideBGCOLOR }) {
           </div>
           <div className="col-lg-4">
             <div className="item md-mb50 md-mt50">
-              <ul> 
+              <ul>
                 <li>
                   <div className="subscribe">
                     <input type="text" placeholder="Type Your Email" />
@@ -57,8 +58,7 @@ function Footer({ hideBGCOLOR }) {
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
                     <h6>Email Us</h6>
-                    <p>hello@gatekod.com
-                    </p>
+                    <p>hello@gatekod.com</p>
                   </div>
                 </li>
                 {/* <li>
@@ -71,13 +71,10 @@ function Footer({ hideBGCOLOR }) {
               </ul>
             </div>
           </div>
-          
-         
-          
         </div>
       </div>
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

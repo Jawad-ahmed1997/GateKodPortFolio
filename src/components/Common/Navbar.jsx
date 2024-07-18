@@ -6,41 +6,49 @@ import { handleDropdown, handleMobileDropdown } from "@/common/navbar";
 //= Static Data
 import appData from "@/data/app.json";
 
-const Navbar = ({ lr,themeMode }) => {
-
-  const [theme,setTheme]=useState(themeMode)
+const Navbar = ({ lr, themeMode }) => {
+  const [theme, setTheme] = useState(themeMode);
   const navbar = useRef();
 
   function handleScroll() {
     if (window.scrollY > 300) {
       navbar.current.classList.add("nav-scroll");
-      setTheme("dark")
+      setTheme("dark");
     } else {
-      if(themeMode==="dark"){
+      if (themeMode === "dark") {
         navbar?.current?.classList?.remove("nav-scroll");
-        setTheme("dark")
-      }else{
-        setTheme("light")
+        setTheme("dark");
+      } else {
+        setTheme("light");
       }
     }
   }
+
+  const smoothScroll = (e, targetId) => {
+    e.preventDefault();
+    const targetElement = document.getElementById(targetId);
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: 'smooth' });
+      window.history.pushState(null, null, `#${targetId}`);
+    }
+  };
 
   useEffect(() => {
     handleScroll();
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  });
+  }, [themeMode]);
+
   useEffect(() => {
-  setTheme(themeMode)
-  }, [])
-  
+    setTheme(themeMode);
+  }, [themeMode]);
 
   return (
-    <nav ref={navbar} className={`navbar navbar-expand-lg change ${theme  === "light" ? "" : "light"}`}>
+    <nav ref={navbar} className={`navbar navbar-expand-lg change ${theme === "light" ? "" : "light"}`} >
       <div className="container">
         <Link className="logo" href="/home">
-          { theme ? (
-             theme==="light" ? (
+          {theme ? (
+            theme === "light" ? (
               <img ref={lr} src={appData?.lightLogo} alt="logo" />
             ) : (
               <img ref={lr} src={appData.darkLogo} alt="logo" />
@@ -67,32 +75,17 @@ const Navbar = ({ lr,themeMode }) => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item ">
-              <a
-                className="nav-link"  href={'/home/'}
-              >
-                Home
-              </a>
-             
+            <li className="nav-item">
+              <a className="nav-link" href="" onClick={(e) => smoothScroll(e, 'home')}>Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href={`/about`}>
-                About
-              </a>
+              <a className="nav-link" href="#about" onClick={(e) => smoothScroll(e, 'about')}>About</a>
             </li>
-            <li className="nav-item ">
-            <a className="nav-link" href={`/showcase`}>
-            Case Studies
-              </a>
-             
-              
-              
-            </li>
-        
             <li className="nav-item">
-              <a href={`/contact`} className="nav-link">
-                Contact
-              </a>
+              <a className="nav-link" href="#showcase" onClick={(e) => smoothScroll(e, 'showcase')}>Case Studies</a>
+            </li>
+            <li className="nav-item">
+              <a href="#contact" className="nav-link" onClick={(e) => smoothScroll(e, 'contact')}>Contact</a>
             </li>
           </ul>
         </div>

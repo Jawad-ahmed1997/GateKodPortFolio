@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "lightImage": "/img/clients/brands/light/01.png",
+      "lightImage": "/img/clients/brands/light/06.png",
       "darkImage": "/img/clients/brands/dark/01.png",
       "url": "Picckr"
     },
@@ -28,7 +28,15 @@
       "lightImage": "/img/clients/brands/light/05.png",
       "darkImage": "/img/clients/brands/dark/05.png",
       "url": "RsCab"
+    },
+   
+    {
+      "id": 6,
+      "lightImage": "/img/clients/brands/light/07.png",
+      "darkImage": "/img/clients/brands/dark/05.png",
+      "url": "vissionire"
     }
+
   
     
   ]

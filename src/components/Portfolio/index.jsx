@@ -11,7 +11,7 @@ function Portfolio({ grid, filterPosition }) {
     }, 500)
   }, []);
   return (
-    <section className="portfolio section-padding pb-70">
+    <section className="portfolio section-padding pb-70" id="showcase">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8 col-md-10">

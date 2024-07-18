@@ -1,7 +1,7 @@
 'use client'
 import React, { useEffect, useState } from 'react';
 //= Page components
-import Loading from '@/components/Common/Loader';
+// import Loading from '@/components/Common/Loader';
 import Navbar from '@/components/Common/Navbar';
 import SliderHeader from '@/components/Headers/SliderHeader';
 import AboutUs from '@/components/AboutUs/AboutUs2';
@@ -18,22 +18,11 @@ import CircleBg from '@/components/Demos/CircleBg';
 import LoadingScreen from '@/components/Common/Loader';
 import ProjectProcess from '@/components/ProjectProcess/process';
 import Calendly from '@/components/Calendly/page';
-
-
+import TestimonialsArch from '@/components/Testimonials/TestimonialsArch';
+import ContactHeader from '@/components/Contact/ContactHeader';
+import ContactForm from '@/components/Contact/ContactForm';
 export default function Home4() {
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 3000); // 3 seconds
-
-    return () => clearTimeout(timer);
-  }, []);
-
-  if (loading) {
-    return <LoadingScreen />; // Replace with your loading component
-  }
+ 
   return (
     <>
       {/* <LoadingScreen /> */}
@@ -42,15 +31,18 @@ export default function Home4() {
       <Navbar themeMode="light" />
       <SliderHeader />
       <div className="main-content">
+      <TestimonialsArch />
         <AboutUs />
         <Services lines />
         <Portfolio grid={2} filterPosition="left"/>
         {/* <ProjectProcess lines/> */}
         {/* <Calendly grid={2}  /> */}
-        <Testimonials />
-        <Clients theme="light" length={4} />
+        {/* <Testimonials /> */}
+        {/* <Clients theme="light" length={4} /> */}
         <Team />
-        {/* <Blogs /> */}
+        <ContactHeader />
+        <ContactForm theme="light" />
+        {/* <Blogs /> */} 
         {/* <SContactForm /> */}
         <Footer hideBGCOLOR />
       </div>

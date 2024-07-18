@@ -6,10 +6,10 @@ import AboutUs2Date from "@/data/sections/about-us2.json";
 
 const AboutUs2 = () => {
   return (
-    <div className="about section-padding">
+    <div className="about section-padding" id="about">
       <div className="container">
         <div className="row">
-          <div className="col-lg-5">
+          <div className="col-lg-5 d-none d-lg-block">
             <div className="img-mons sm-mb30">
               <div className="row">
                 <div className="col-md-5 cmd-padding valign">
@@ -26,9 +26,7 @@ const AboutUs2 = () => {
                   </div>
                   <div className="container">
                     <div className="row">
-                      <div className="col-md-6">
-
-                      </div>
+                      <div className="col-md-6"></div>
                       <div className="col-md-6"></div>
                     </div>
                   </div>

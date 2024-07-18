@@ -6,7 +6,7 @@ import contentFormData from "@/data/contact-form.json";
 
 function ContactForm({ theme }) {
   return (
-    <section className="contact section-padding">
+    <section className="contact section-padding" id='contact'>
       <div className="container">
         <div className="row">
           <div className="col-lg-6">

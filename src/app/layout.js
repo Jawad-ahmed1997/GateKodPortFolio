@@ -3,7 +3,7 @@ import "@/styles/main.scss";
 import "@/styles/preloader.css";
 import "@/styles/modal-video.css";
 import "swiper/css/bundle";
-import "react-circular-progressbar/dist/styles.css";
+// import "react-circular-progressbar/dist/styles.css";
 
 
 export const metadata = {
@@ -19,7 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="">{children}</body>
     </html>
   )
 }

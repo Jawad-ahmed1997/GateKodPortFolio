@@ -12,7 +12,7 @@ import intro1Data from "@/data/intro1.json";
 
 const swiperOptions = {
   modules: [Parallax, Navigation, Pagination],
-  speed: 1000,
+  speed: 2000,
   navigation: {
     prevEl: ".swiper-button-prev",
     nextEl: ".swiper-button-next",
@@ -49,18 +49,30 @@ function SliderHeader() {
     }
   }, []);
   return (
-    <header className="slider slider-prlx fixed-slider text-center" ref={fixedSlider}>
+    <header className="slider slider-prlx fixed-slider text-center" ref={fixedSlider}
+    style={{
+      height:'80vh'
+    }}
+    
+    >
       <div className="swiper-container parallax-slider">
         <Swiper {...swiperOptions} className="swiper-wrapper">
           {
             intro1Data.map(slide => (
               <SwiperSlide key={slide.id} className="swiper-slide">
-                <div className="bg-img valign" style={{ backgroundImage: `url(${slide.image})` }} data-overlay-dark="6">
+                <div className="bg-img valign" style={{
+                  background:'black'
+                }} data-overlay-dark="6">
                     
                   <div className="container">
                     <div className="row justify-content-center">
-                      <div className="col-lg-8 col-md-10">
-                        <div className="caption center mt-30">
+                      <div className="col-lg-10 col-md-10">
+                        <div className="caption center  "
+                        style={{
+                          width: "100%",
+                          // backgroundColor:'red'
+                        }}
+                        >
                           <h1 className="color-font">{slide.title}</h1>
                           {
                             slide.content &&
@@ -70,6 +82,7 @@ function SliderHeader() {
                       </div>
                     </div>
                   </div>
+
                 </div>
               </SwiperSlide>
             ))
@@ -99,4 +112,4 @@ function SliderHeader() {
   )
 }
 
-export default SliderHeader;
+export default SliderHeader; 
