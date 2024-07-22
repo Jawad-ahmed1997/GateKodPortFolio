@@ -13,15 +13,15 @@ const AboutUs2 = () => {
             <div className="img-mons sm-mb30">
               <div className="row">
                 <div className="col-md-5 cmd-padding valign">
-                  <div className="img1 wow imago" data-wow-delay=".5s">
-                    <img src={AboutUs2Date.image1} alt="" />
+                  <div className="img1 wow" data-wow-delay=".5s">
+                    <img src={AboutUs2Date.image1} alt="image" />
                   </div>
                 </div>
                 <div className="col-md-7 cmd-padding">
-                  <div className="img2 wow imago" data-wow-delay=".3s">
+                  <div className="img2 wow" data-wow-delay=".3s">
                     <img src={AboutUs2Date.image2} alt="" />
                   </div>
-                  <div className="img3 wow imago" data-wow-delay=".8s">
+                  <div className="img3 wow" data-wow-delay=".8s">
                     <img src={AboutUs2Date.image3} alt="" />
                   </div>
                   <div className="container">

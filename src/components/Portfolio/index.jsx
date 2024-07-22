@@ -37,7 +37,7 @@ function Portfolio({ grid, filterPosition }) {
                 : 'col-12'
               } items graphic wow fadeInUp `} data-wow-delay=".4s">
               <div className="item-img">
-                <Link className="imago wow " href={`/project-details/${item?.id}`}>
+                <Link className=" " href={`/project-details/${item?.id}`}>
                   <img src={item?.image} alt="image" />
                   <div className="item-img-overlay"></div>
                 </Link>
