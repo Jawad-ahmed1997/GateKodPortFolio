@@ -7,7 +7,7 @@ import AboutUs2Date from "@/data/sections/process.json";
 const ProjectProcess = ({style,lines}) => {
   return (
     <>
-    <div className="process section-padding">
+    <div className="process section-padding" >
       <div className="container">
         <div className="row">
         <div className="row justify-content-center">
@@ -69,20 +69,20 @@ const ProjectProcess = ({style,lines}) => {
               </div>
             </div>
           </div>
-          <div className="col-lg-5">
+          <div className="col-lg-5 d-none d-lg-block ">
             <div className="img-mons sm-mb30 " style={{display:"flex",alignItems:"center",height:"100%",justifyContent:"center"}}>
               <div className="row"  >
-                <div className="col-md-5 cmd-padding valign">
-                  <div className="img1 wow imago" data-wow-delay=".5s">
-                    <img src={AboutUs2Date.image1} alt="" />
+                <div className="col-md-5 cmd-padding valign ">
+                  <div className="img1 wow " data-wow-delay=".5s">
+                    <img src='https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ480Re_4HqkfaCnCElA9kYCvqsMkWh_u_8dkPDSeYdlxZlgj3L' alt="" />
                   </div>
                 </div>
                 <div className="col-md-7 cmd-padding">
-                  <div className="img2 wow imago" data-wow-delay=".3s">
-                    <img src={AboutUs2Date.image2} alt="" />
+                  <div className="img2 wow " data-wow-delay=".3s">
+                    <img src='https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ4gkmwlLABzJRah0O67PvL8VajwlbjEqpC5W2BEGuQw3ZFGjRQ' alt="" />
                   </div>
-                  <div className="img3 wow imago" data-wow-delay=".8s">
-                    <img src={AboutUs2Date.image3} alt="" />
+                  <div className="img3 wow " data-wow-delay=".8s">
+                    <img src='https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSdM-psk7F6j2NHaruNKsyCEG_MBiJONdFnYALpI9uSFwyQtjAv' alt="" />
                   </div>
                   <div className="container">
                     <div className="row">

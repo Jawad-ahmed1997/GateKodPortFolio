@@ -34,12 +34,12 @@ export default function Home4() {
       <TestimonialsArch />
         <AboutUs />
         <Services lines />
+        <ProjectProcess lines/>
+        <Calendly grid={2}  />
+        <Team />
         <Portfolio grid={2} filterPosition="left"/>
-        {/* <ProjectProcess lines/> */}
-        {/* <Calendly grid={2}  /> */}
         {/* <Testimonials /> */}
         {/* <Clients theme="light" length={4} /> */}
-        <Team />
         <ContactHeader />
         <ContactForm theme="light" />
         {/* <Blogs /> */} 

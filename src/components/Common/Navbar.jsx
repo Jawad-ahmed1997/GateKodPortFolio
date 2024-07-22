@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React, { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 //= Scripts
@@ -28,7 +28,7 @@ const Navbar = ({ lr, themeMode }) => {
     e.preventDefault();
     const targetElement = document.getElementById(targetId);
     if (targetElement) {
-      targetElement.scrollIntoView({ behavior: 'smooth' });
+      targetElement.scrollIntoView({ behavior: "smooth" });
       window.history.pushState(null, null, `#${targetId}`);
     }
   };
@@ -44,7 +44,12 @@ const Navbar = ({ lr, themeMode }) => {
   }, [themeMode]);
 
   return (
-    <nav ref={navbar} className={`navbar navbar-expand-lg change ${theme === "light" ? "" : "light"}`} >
+    <nav
+      ref={navbar}
+      className={`navbar navbar-expand-lg change ${
+        theme === "light" ? "" : "light"
+      }`}
+    >
       <div className="container">
         <Link className="logo" href="/home">
           {theme ? (
@@ -76,17 +81,50 @@ const Navbar = ({ lr, themeMode }) => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a className="nav-link" href="" onClick={(e) => smoothScroll(e, 'home')}>Home</a>
+              <a
+                className="nav-link"
+                href=""
+                onClick={(e) => smoothScroll(e, "home")}
+              >
+                Home
+              </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#about" onClick={(e) => smoothScroll(e, 'about')}>About</a>
+              <a
+                className="nav-link"
+                href="#about"
+                onClick={(e) => smoothScroll(e, "about")}
+              >
+                About
+              </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#showcase" onClick={(e) => smoothScroll(e, 'showcase')}>Case Studies</a>
+              <a
+                className="nav-link"
+                href="#showcase"
+                onClick={(e) => smoothScroll(e, "showcase")}
+              >
+                Case Studies
+              </a>
             </li>
             <li className="nav-item">
-              <a href="#contact" className="nav-link" onClick={(e) => smoothScroll(e, 'contact')}>Contact</a>
+              <a
+                href="#team"
+                className="nav-link"
+                onClick={(e) => smoothScroll(e, "team")}
+              >
+                {" "}
+                 Our Team
+              </a>
             </li>
+            <div className="sub-title mt-3 mx-4">
+              <h6>
+                {" "}
+                <a href="#contact" onClick={(e) => smoothScroll(e, "contact")}>
+                  contact us
+                </a>
+              </h6>
+            </div>
           </ul>
         </div>
       </div>
