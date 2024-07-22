@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from "react";
 //= Components
 import Split from "@/components/Common/Split";
